@@ -23,6 +23,11 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [],
+            "source": "data.csv",
+            "target": "create subset.R"
         }
     ],
     "nodes": [
@@ -34,8 +39,12 @@
         },
         {
             "name": "data.csv"
+        },
+        {
+            "desc": "",
+            "name": "create subset.R"
         }
     ],
-    "updated_at": "2018-09-27 15:14:15",
+    "updated_at": "2018-09-27 15:29:58",
     "url": "https://github.com/fall2018-saltz/ywang_project1"
 }
